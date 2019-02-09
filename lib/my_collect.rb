@@ -5,6 +5,6 @@ def my_collect(array)
    modify_array.push(yield array[i])
    i += 1
   end
-  
+  modify_array
 end
 
